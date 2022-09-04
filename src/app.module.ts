@@ -4,7 +4,7 @@ import { CatModule } from './cat/cat.module';
 
 
 @Module({
-  imports: [MongooseModule.forRoot('mongodb+srv://neopopa:919neo6519neo@cluster0.kyhobey.mongodb.net/?retryWrites=true&w=majority'),
+  imports: [MongooseModule.forRoot(),
     CatModule],
 
 })
