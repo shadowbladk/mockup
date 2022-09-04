@@ -4,7 +4,7 @@ import { CatModule } from './cat/cat.module';
 
 
 @Module({
-  imports: [MongooseModule.forRoot(),
+  imports: [MongooseModule.forRoot(/*get from ypur mongo*/),
     CatModule],
 
 })
